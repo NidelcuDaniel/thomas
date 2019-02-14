@@ -1,0 +1,30 @@
+ul {
+  display: inline;
+  list-style-type: none;
+}
+
+ul li {
+  display: inline-block;
+  overflow: hidden;
+  text-indent: -9999px;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #cccccc;
+  cursor: pointer;
+}
+
+ul li.orange, body.orange {
+  background-color: #F18F01;
+}
+
+ul li.blue, body.blue {
+  background-color: #048BA8;
+}
+
+ul li.red, body.red {
+  background-color: red;
+}
+
+ul li.green, body.green, body {
+  background-color: #99C24D;
+}

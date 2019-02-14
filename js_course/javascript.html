@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Javascript</title>
+    <script>
+
+      var Boom = function() {
+        return this;
+      }
+      
+      Boom.prototype.explosion = function() {
+        return 'Boom';
+      }
+
+      var boom = new Boom;
+
+      console.log(boom instanceof Boom);
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>
